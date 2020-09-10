@@ -1,6 +1,6 @@
 body {
     font-family: monospace;
-    background-image: url(image/eberhard-grossgasteiger-J9NDmBVhN04-unsplash.jpg);
+    background-image: url(image/mat-reding-zxHJq8hv-uo-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -28,7 +28,7 @@ ul {
 }
 
 #parcours {
-    margin-left: 500px;
+    margin-left: 317px;
     font-size: 20px;
 }
 
@@ -39,11 +39,11 @@ ul {
 
 #competences {
     font-size: 20px;
-    margin-left: 2290px;
+    margin-left: 1370px;
 }
 
 #prjs {
-    margin-left: 300px;
+    margin-left: 320px;
     font-size: 20px;
 }
 
@@ -64,7 +64,7 @@ ul {
 #home {
     margin-left: 500px;
     display: flex;
-    margin-bottom: 145px;
+    margin-bottom: 76px;
     padding-top: 70px;
 }
 
@@ -75,10 +75,24 @@ ul {
 
 
 .text {
-    margin-left: 20px;
+    bottom: 20px;
+    margin-right: 40px;
+    z-index: 1;
+    width: 500px;
 }
 
-.text_1,
+.text_1_1 {
+    margin-bottom: 23px;
+    margin-left: 151px;
+}
+
+
+.text_1 {
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+
 .text_2,
 .text_3_1 {
     margin-left: 5px;
@@ -98,8 +112,9 @@ ul {
 
 #formation_1 {
     display: flex;
-    width: 55%;
-    padding-top: 70px;
+    width: 300px;
+    margin-left: 146px;
+    padding-top: 2px;
 }
 
 .text_6 {
@@ -107,9 +122,9 @@ ul {
     width: 300px;
 }
 
-#row_1{
+#row_1 {
     position: relative;
-    top: 330px;
+    top: 170px;
 }
 
 #formation_1>img,
@@ -135,43 +150,53 @@ ul {
 
 #formation_4 {
     position: relative;
-    margin-left: 150px;
+    margin-left: 155px;
     display: flex;
     padding-top: 70px;
-    top: 370px;
+    top: 333px;
 }
 
 .info {
     display: flex;
     padding: 10px;
     text-align: right;
+    position: relative;
+    margin-bottom: 210px;
+    margin-left: 198px;
 }
 
 #experience_1 {
     visibility: hidden;
-    margin-right: 65px;
     width: 300px;
     height: 160px;
     text-align: center;
     background-color: #ffffff2e;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
 }
 
 #experience_2 {
     visibility: hidden;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 123px;
     height: 160px;
     width: 315px;
     padding-bottom: 1px;
     background-color: #ffffff2e;
+    z-index: 1;
 }
 
 #experience_3 {
     visibility: hidden;
+    z-index: 1;
+    position: relative;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
     width: 283px;
     padding-bottom: 1px;
+    /* margin-right: 32px; */
+    left: 37px;
     background-color: #ffffff2e;
 }
 
@@ -179,17 +204,21 @@ ul {
     visibility: hidden;
     background-color: #ffffff2e;
     margin-left: 55px;
+    margin-top: 10px;
     position: relative;
     width: 395px;
     height: 235px;
+    z-index: 1;
 }
 
 #experience_5 {
     margin-left: 400px;
     display: flex;
     position: relative;
-    top: 385px;
-    left: 103px;
+    top: 367px;
+    left: 241px;
+    
+    text-align: center;
 }
 
 .missions_1,
@@ -200,21 +229,43 @@ ul {
 
 #button_1 {
     margin-right: 200px;
+    background-color: whitesmoke;
 }
 
 #button_2 {
-    margin-top: 540px;
-    margin-left: 135px;
+    margin-top: 294px;
+    margin-left: 188px;
+    position: absolute;
+    z-index: 1;
+    background-color: whitesmoke;
 }
 
 #button_3 {
-    margin-top: 430px;
-    margin-left: 115px;
-
+    position: absolute;
+    margin-top: 231px;
+    margin-left: 160px;
+    z-index: 1;
+    background-color: whitesmoke;
 }
 
 #button_4 {
     margin-left: 165px;
+    z-index: 1;
+    background-color: whitesmoke;
+}
+
+#button_5 {
+    position: relative;
+    top: 206px;
+    left: 252px;
+    background-color: whitesmoke;
+}
+
+#button_6 {
+    position: relative;
+    top: 206px;
+    left: 652px;
+    background-color: whitesmoke;
 }
 
 #carouselExampleIndicators {
@@ -241,8 +292,8 @@ nav>.crdn {
     position: absolute;
     width: 1100px;
     height: 500px;
-    margin-left: 100px;
-    margin-top: 623px;
+    left: 500px;
+    margin-top: 500px;
 }
 
 #cloud_1_1 {
@@ -251,8 +302,7 @@ nav>.crdn {
     height: 350px;
     margin-top: 580px;
     margin-left: 1300px;
-    animation: cloud-move 25s infinite linear;
-    z-index: 1;
+    animation: cloud-move 30s infinite linear;
 }
 
 #cloud_1_2 {
@@ -275,10 +325,10 @@ nav>.crdn {
 
 #cloud_2 {
     position: absolute;
-    width: 781px;
+    width: 747px;
     height: 386px;
-    margin-top: 720px;
-    z-index: 1;
+    margin-top: 405px;
+    margin-left: -384px;
 }
 
 #cloud_3 {
@@ -299,6 +349,20 @@ nav>.crdn {
     margin-top: 270px;
 }
 
+#cloud_5 {
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    right: 600px;
+}
+
+#cloud_6 {
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    right: 600px;
+}
+
 #presentation {
     font-size: 15px;
 }
@@ -309,7 +373,7 @@ nav>.crdn {
     width: 53px;
     height: 53px;
     margin-left: 685px;
-    margin-top: -37px;
+    margin-top: -20px;
     transform: rotate(180deg);
 }
 
@@ -317,7 +381,7 @@ nav>.crdn {
     position: absolute;
     width: 115px;
     height: 53px;
-    margin-top: -37px;
+    margin-top: -30px;
     margin-left: 730px;
 
 }
@@ -329,7 +393,7 @@ nav>.crdn {
     position: fixed;
 }
 
-.banner{
+.banner {
     position: absolute;
     width: 955px;
     height: 299px;

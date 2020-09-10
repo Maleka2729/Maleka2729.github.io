@@ -44,7 +44,7 @@ particlesJS("particles-js", {
             "type": "circle",
             "stroke": {
                 "width": 0,
-                "color": "#000000"
+                "color": "white"
             },
             "polygon": {
                 "nb_sides": 5
@@ -60,18 +60,18 @@ particlesJS("particles-js", {
             "random": false,
             "anim": {
                 "enable": true,
-                "speed": 0.2,
+                "speed": 0.5,
                 "opacity_min": 0,
                 "sync": false
             }
         },
         "size": {
-            "value": 2,
+            "value": 3,
             "random": true,
             "anim": {
                 "enable": true,
                 "speed": 4,
-                "size_min": 0,
+                "size_min": 2,
                 "sync": false
             }
         },

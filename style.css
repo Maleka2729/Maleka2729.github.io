@@ -1,6 +1,6 @@
 body {
     background-image: url(image/mat-reding-zxHJq8hv-uo-unsplash.jpg);
-    background-size: cover;
+    background-size: 1440px cover;
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0;
@@ -180,7 +180,7 @@ ul {
 #experience_1 {
     visibility: hidden;
     width: 300px;
-    height: 205px;
+    height: 158px;
     text-align: center;
     background-color: #ffffff2e;
     position: relative;
@@ -204,7 +204,7 @@ ul {
     z-index: 1;
     position: relative;
     text-align: center;
-    margin-top: 45px;
+    margin-top: 63px;
     width: 283px;
     padding-bottom: 1px;
     left: 37px;
@@ -227,9 +227,8 @@ ul {
     display: flex;
     position: relative;
     top: 367px;
-    left: 241px;
-
-    text-align: center;
+    right: -300px;
+    width: 450px;
 }
 
 .missions_1,
@@ -312,16 +311,14 @@ nav>#git {
 #cloud_1 {
     position: absolute;
     width: 1100px;
-    height: 500px;
-    left: 500px;
-    margin-top: 500px;
+    left: 700px;
 }
 
 #cloud_1_1 {
     position: absolute;
     width: 680px;
     height: 350px;
-    margin-top: 438px;
+    /* margin-top: 438px; */
     animation: cloud-move 30s infinite linear;
 }
 
@@ -329,7 +326,7 @@ nav>#git {
     position: absolute;
     width: 400px;
     height: 350px;
-    margin-top: -150px;
+    /* margin-top: -150px; */
     animation: cloud-move_2 40s infinite linear;
 }
 
@@ -360,9 +357,8 @@ nav>#git {
 #cloud_3 {
     position: absolute;
     width: 1100px;
-    height: 500px;
     z-index: 1;
-    left: 759px;
+    left: 800px;
 }
 
 #cloud_4 {
@@ -391,14 +387,47 @@ nav>#git {
 #cloud_7 {
     position: absolute;
     width: 920px;
-    height: 500px;
-    left: 934px;
-    margin-top: 349px;
+    left: 893px;
 }
+
+#move-cloud-line-left {
+    overflow-x: hidden;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.line-cloud_1 {
+    top: 1240px;
+    height: 550px;
+}
+
+.line-cloud_3 {
+    height: 1000px;
+}
+
+.line-cloud_7 {
+    top: 514px;
+    height: 550px;
+}
+
+.line-cloud_1_1 {
+    top: 750px;
+    height: 350px;
+}
+
+.line-cloud_1_2 {
+    top: 1600px;
+    height: 350px;
+}
+
+
 
 #presentation {
     font-size: 15px;
 }
+
+
 
 
 .scroll_1 {
@@ -422,7 +451,7 @@ nav>#git {
 .vl {
     border-left: 2px solid black;
     margin-left: 60px;
-    height: 100vh;
+    height: 100%;
     position: fixed;
 }
 
@@ -781,7 +810,6 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     opacity: 1;
 }
 
-
 @-webkit-keyframes cloud-move {
     0% {
         transform: translate(1250px, 0);
@@ -819,62 +847,306 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         overflow-x: hidden;
     }
 
-    .vl {
-        border-left: 2px solid black;
-        margin-left: 60px;
-        height: 100%;
-        position: fixed;
-    }
-
     #cloud_1 {
         position: absolute;
         width: 1100px;
-        height: 500px;
-        left: 300px;
-        margin-top: 500px;
+        left: 700px;
     }
 
     #cloud_7 {
         position: absolute;
         width: 920px;
-        height: 500px;
-        left: 525px;
-        margin-top: 349px;
+        left: 893px;
     }
 
     #cloud_3 {
         position: absolute;
-        width: 1020px;
+        width: 1000px;
         height: 500px;
         z-index: 1;
-        left: 425px;
+        left: 800px;
+    }
+
+    .navigation {
+        z-index: 1;
+        position: fixed;
+        left: 1010px;
+        font-size: 17px;
+        top: 20px;
+        word-spacing: 30px;
+    }
+
+    #parcours {
+        margin-left: 980px;
+        font-size: 20px;
+    }
+
+    #competences {
+        font-size: 20px;
+        margin-left: 680px;
+    }
+
+    .scroll_1 {
+        position: absolute;
+        width: 53px;
+        height: 53px;
+        margin-left: 640px;
+        margin-top: -20px;
+        transform: rotate(180deg);
+    }
+
+    .txt_scroll_1 {
+        position: absolute;
+        width: 115px;
+        height: 53px;
+        margin-top: -30px;
+        margin-left: 690px;
+
     }
 
     @-webkit-keyframes cloud-move {
         0% {
             transform: translate(1250px, 0);
         }
-    
+
         100% {
             transform: translate(-1000px, 0);
         }
     }
-    
+
     @-webkit-keyframes cloud-move_2 {
         0% {
             transform: translate(1300px, 0);
         }
-    
+
         100% {
             transform: translate(-1430px, 0);
         }
     }
-    
+
     @-webkit-keyframes cloud-move_3 {
         0% {
             transform: translate(-80vw, 0);
         }
+
+        100% {
+            transform: translate(1400px, 0);
+        }
+    }
+
+}
+
+/* responsive ecran 1024px */
+@media screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navigation {
+        z-index: 1;
+        position: fixed;
+        left: 690px;
+        font-size: 17px;
+        top: 20px;
+    }
+
+    #parcours {
+        margin-left: 750px;
+        font-size: 20px;
+    }
+
+    #competences {
+        font-size: 20px;
+        margin-left: 900px;
+    }
+
+    .coordonnees {
+        padding-top: 20px;
+        font-size: 17px;
+        margin-left: 85px;
+    }
     
+
+    .menu_1_2 {
+        margin: 0 auto;
+        position: absolute;
+        top: 230px;
+        left: 735px;
+        margin-left: -25px;
+        margin-top: -25px;
+        z-index: 1;
+    }
+
+    .menu {
+        margin: 0 auto;
+        position: absolute;
+        top: 230px;
+        left: 320px;
+        margin-left: -25px;
+        margin-top: -25px;
+        z-index: 1;
+    }
+
+    #experience_5 {
+        margin-left: 400px;
+        display: flex;
+        position: relative;
+        top: 367px;
+        right: -127px;
+        width: 450px;
+    }
+
+    .text_4 {
+        margin-left: 15px;
+        padding-top: 10px;
+        width: 272px;
+    }
+
+    #experience_4 {
+        visibility: hidden;
+        background-color: #ffffff2e;
+        margin-left: 55px;
+        margin-top: 10px;
+        position: relative;
+        width: 301px;
+        height: 255px;
+        z-index: 1;
+    }
+
+    #formation_3 {
+        margin-left: 105px;
+        width: 230px;
+    }
+
+    #button_4 {
+        margin-left: 93px;
+        z-index: 1;
+        background-color: whitesmoke;
+    }
+
+    #experience_3 {
+        visibility: hidden;
+        z-index: 1;
+        position: relative;
+        text-align: center;
+        margin-top: 100px;
+        width: 234px;
+        padding-bottom: 1px;
+        left: 71px;
+        background-color: #ffffff2e;
+    }
+
+    #button_3 {
+        position: absolute;
+        margin-top: 268px;
+        margin-left: 160px;
+        z-index: 1;
+        background-color: whitesmoke;
+    }
+
+    #experience_2 {
+        visibility: hidden;
+        text-align: center;
+        margin-top: 190px;
+        height: 159px;
+        width: 276px;
+        padding-bottom: 1px;
+        background-color: #ffffff2e;
+        z-index: 1;
+    }
+
+    #button_2 {
+        margin-top: 357px;
+        margin-left: 124px;
+        position: absolute;
+        z-index: 1;
+        background-color: whitesmoke;
+    }
+
+    .info {
+        display: flex;
+        padding: 10px;
+        text-align: right;
+        position: relative;
+        margin-bottom: 187px;
+        margin-left: 59px;
+    }
+
+    #home {
+        margin-left: 246px;
+        display: flex;
+        margin-bottom: 76px;
+        padding-top: 70px;
+    }
+
+    #home>img {
+        width: 316px;
+        height: 435px;
+    }
+
+    .scroll_1 {
+        position: absolute;
+        width: 53px;
+        height: 53px;
+        margin-left: 450px;
+        margin-top: -20px;
+        transform: rotate(180deg);
+    }
+
+    .txt_scroll_1 {
+        position: absolute;
+        width: 115px;
+        height: 53px;
+        margin-top: -30px;
+        margin-left: 500px;
+
+    }
+
+    #cloud_1 {
+        position: absolute;
+        width: 1100px;
+        left: 500px;
+    }
+
+    #cloud_7 {
+        position: absolute;
+        width: 920px;
+        left: 609px;
+    }
+
+    #cloud_3 {
+        position: absolute;
+    width: 614px;
+    height: 400px;
+    z-index: 1;
+    left: 583px;
+    }
+
+    @-webkit-keyframes cloud-move {
+        0% {
+            transform: translate(1250px, 0);
+        }
+
+        100% {
+            transform: translate(-1000px, 0);
+        }
+    }
+
+    @-webkit-keyframes cloud-move_2 {
+        0% {
+            transform: translate(1300px, 0);
+        }
+
+        100% {
+            transform: translate(-1430px, 0);
+        }
+    }
+
+    @-webkit-keyframes cloud-move_3 {
+        0% {
+            transform: translate(-80vw, 0);
+        }
+
         100% {
             transform: translate(1400px, 0);
         }

@@ -183,11 +183,9 @@ ul {
 
 .info_2 {
     display: flex;
-    /* padding: 10px; */
     text-align: right;
     position: relative;
     margin-bottom: 210px;
-    /* margin-left: 198px; */
 }
 
 
@@ -333,7 +331,6 @@ nav>#git {
     position: absolute;
     width: 680px;
     height: 350px;
-    /* margin-top: 438px; */
     animation: cloud-move 30s infinite linear;
 }
 
@@ -346,16 +343,12 @@ nav>#git {
 #cloud_1_3 {
     position: absolute;
     width: 680px;
-    margin-top: 100px;
-    top: 185px;
     animation: cloud-move_3 35s infinite linear;
 }
 
 #cloud_1_4 {
     position: absolute;
     width: 680px;
-    height: 350px;
-    margin-top: 100px;
     animation: cloud-move_3 35s infinite linear;
 }
 
@@ -413,6 +406,16 @@ nav>#git {
 .line-cloud_1 {
     top: 1240px;
     height: 550px;
+}
+
+.line-cloud_1_3 {
+    top: 1900px;
+    height: 785px;
+}
+
+.line-cloud_1_4 {
+    top: 100px;
+    height: 785px;
 }
 
 .line-cloud_7 {
@@ -879,6 +882,11 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         left: 800px;
     }
 
+    .line-cloud_1_3 {
+        top: 1880px;
+        height: 785px;
+    }
+
     .navigation {
         z-index: 1;
         position: fixed;
@@ -1172,6 +1180,11 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .line-cloud_1_2 {
         top: 1645px;
         height: 350px;
+    }
+
+    .line-cloud_1_3 {
+        top: 2000px;
+        height: 785px;
     }
 
     @-webkit-keyframes cloud-move {
@@ -1870,11 +1883,13 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
 
     #cloud_1_3 {
         position: absolute;
-        width: 680px;
-        height: 350px;
-        margin-top: 2300px;
         z-index: 0;
         animation: cloud-move_3 35s infinite linear;
+    }
+
+    .line-cloud_1_3 {
+        top: 2414px;
+        height: 500px;
     }
 
     .about_me {
@@ -1942,7 +1957,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
 
     .line-cloud_1_2 {
         top: 1755px;
-        height: 350px;
+        height: 400px;
     }
 
     #cloud_6 {
@@ -1986,6 +2001,23 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
 
 /* responsive ecran 375pxpx */
 @media screen and (max-width: 375px) {
+    #row_1 {
+        position: relative;
+        top: 219px;
+        overflow-x: hidden;
+    }
+    #cloud_3 {
+        visibility: hidden;
+        position: absolute;
+        width: 614px;
+        height: 400px;
+        z-index: 1;
+        left: 583px;
+    }
+    .line-cloud_1 {
+        top: 1300px;
+        height: 568px;
+    }
     #parcours {
         margin-left: 935px;
     }
@@ -2050,6 +2082,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         word-spacing: -73px;
     }
     #cloud_5 {
+        visibility: hidden;
         position: absolute;
         width: 900px;
         height: 500px;
@@ -2148,6 +2181,18 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .missions>p {
         font-size: 11px;
     }
+    .text {
+        bottom: 20px;
+        margin-left: 21px;
+        z-index: 1;
+        width: 296px;
+        /* margin-right: -21px; */
+    }
+    #row_1 {
+        position: relative;
+        top: 219px;
+        overflow-x: hidden;
+    }
     .menu {
         position: absolute;
         margin-bottom: 55px;
@@ -2157,6 +2202,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         margin-top: -25px;
         z-index: 1;
     }
+
     .menu_1_2 {
         margin: 0 auto;
         position: absolute;
@@ -2223,7 +2269,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     #formation_1 {
         display: flex;
         width: 293px;
-        margin-left: 27px;
+        margin-left: 0;
         padding-top: 110px;
         margin-bottom: -16px;
     }

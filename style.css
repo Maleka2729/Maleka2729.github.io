@@ -1576,12 +1576,11 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .navigation {
         z-index: 1;
         position: fixed;
-        left: 312px;
-        /* margin-left: -1px; */
-        word-spacing: 3px;
-        font-size: 13px;
-        width: 193px;
-        top: 96px;
+        left: 306px;
+        width: 182px;
+        word-spacing: 7px;
+        font-size: 12px;
+        top: 101px;
         display: block;
         transform: rotate(-90deg);
     }
@@ -1799,7 +1798,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         display: flex;
         position: relative;
         top: 235px;
-        left: 15px;
+        left: 0px;
         right: 0;
     }
 

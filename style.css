@@ -1987,7 +1987,10 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
 /* responsive ecran 375pxpx */
 @media screen and (max-width: 375px) {
     #parcours {
-        margin-left: 1096px;
+        margin-left: 935px;
+    }
+    #competences {
+        margin-left: 1285px;
     }
     .menu_1_2 {
         margin: 0 auto;

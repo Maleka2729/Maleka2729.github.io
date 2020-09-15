@@ -301,8 +301,8 @@ ul {
 .coordonnees {
     padding-top: 20px;
     font-size: 17px;
-    margin-left: 160px;
-    word-spacing: 23px;
+    margin-left: 150px;
+    word-spacing: -7px;
 }
 
 nav>#crdn {
@@ -1587,7 +1587,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     }
 
     .navigation {
-        visibility: hidden;
+        visibility: visible;
         z-index: 1;
         position: fixed;
         left: 306px;
@@ -1721,8 +1721,8 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .coordonnees {
         padding-top: 16px;
         font-size: 17px;
-        margin-left: 100px;
-        word-spacing: -38px;
+        margin-left: 53px;
+        word-spacing: -73px;
     }
 
     #cloud_1 {

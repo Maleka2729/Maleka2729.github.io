@@ -1587,6 +1587,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     }
 
     .navigation {
+        visibility: hidden;
         z-index: 1;
         position: fixed;
         left: 306px;

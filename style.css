@@ -1720,9 +1720,9 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
 
     .coordonnees {
         padding-top: 20px;
-        font-size: 15px;
-        margin-left: 50px;
-        word-spacing: -70px;
+        font-size: 18px;
+        margin-left: 65px;
+        word-spacing: -28px;
     }
 
     #cloud_1 {
@@ -1779,7 +1779,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     }
 
     #experience_3 {
-        visibility: hidden;
+        visibility: visible;
         z-index: 1;
         position: absolute;
         text-align: center;
@@ -1856,8 +1856,6 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         height: 158px;
         text-align: center;
         background-color: #ffffff2e;
-        /* position: relative; */
-        /* right: 9px; */
         margin-right: 0;
         margin-left: 545px;
         bottom: 57px;

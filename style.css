@@ -1721,8 +1721,8 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .coordonnees {
         padding-top: 16px;
         font-size: 17px;
-        margin-left: 70px;
-        word-spacing: -40px;
+        margin-left: 100px;
+        word-spacing: -38px;
     }
 
     #cloud_1 {

@@ -1594,7 +1594,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         width: 182px;
         word-spacing: 7px;
         font-size: 12px;
-        top: 101px;
+        top: 105px;
         display: block;
         transform: rotate(-90deg);
     }
@@ -1722,7 +1722,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         padding-top: 16px;
         font-size: 17px;
         margin-left: 53px;
-        word-spacing: -73px;
+        word-spacing: -72px;
     }
 
     #cloud_1 {

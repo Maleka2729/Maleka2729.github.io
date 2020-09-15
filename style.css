@@ -1719,10 +1719,10 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     }
 
     .coordonnees {
-        padding-top: 16px;
-        font-size: 17px;
-        margin-left: 53px;
-        word-spacing: -72px;
+        padding-top: 20px;
+        font-size: 15px;
+        margin-left: 50px;
+        word-spacing: -70px;
     }
 
     #cloud_1 {
@@ -1779,7 +1779,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     }
 
     #experience_3 {
-        visibility: visible;
+        visibility: hidden;
         z-index: 1;
         position: absolute;
         text-align: center;

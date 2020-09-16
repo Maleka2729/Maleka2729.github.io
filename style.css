@@ -1590,11 +1590,11 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         visibility: visible;
         z-index: 1;
         position: fixed;
-        left: 306px;
-        width: 182px;
+        left: 302px;
+        width: 200px;
         word-spacing: 7px;
-        font-size: 12px;
-        top: 105px;
+        font-size: 13px;
+        top: 126px;
         display: block;
         transform: rotate(-90deg);
     }
@@ -1721,8 +1721,8 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .coordonnees {
         padding-top: 20px;
         font-size: 18px;
-        margin-left: 65px;
-        word-spacing: -28px;
+        margin-left: 73px;
+        word-spacing: -73px;
     }
 
     #cloud_1 {

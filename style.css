@@ -301,8 +301,12 @@ ul {
 .coordonnees {
     padding-top: 20px;
     font-size: 17px;
-    margin-left: 150px;
+    margin-left: 120px;
     word-spacing: -7px;
+}
+
+#lm {
+    word-spacing: 1px;
 }
 
 nav>#crdn {
@@ -993,9 +997,11 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .navigation {
         z-index: 1;
         position: fixed;
-        left: 690px;
+        left: 842px;
+        width: 310px;
         font-size: 17px;
-        top: 20px;
+        top: 170px;
+        transform: rotate(-90deg);
     }
 
     #parcours {
@@ -1184,7 +1190,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
 
     .line-cloud_1_3 {
         top: 2000px;
-        height: 785px;
+        height: 610px;
     }
 
     @keyframes cloud-move {
@@ -1228,10 +1234,13 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .navigation {
         z-index: 1;
         position: fixed;
-        left: 653px;
+        left: 590px;
+        width: 300px;
         font-size: 15px;
-        top: 20px;
-        display: inline-grid;
+        top: 94px;
+        display: block;
+        word-spacing: 11px;
+        transform: rotate(-90deg);
     }
 
     #parcours {
@@ -1247,8 +1256,8 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .coordonnees {
         padding-top: 20px;
         font-size: 17px;
-        margin-left: 85px;
-        word-spacing: -1px;
+        margin-left: 79px;
+        word-spacing: -22px;
     }
 
 
@@ -1399,7 +1408,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         text-align: right;
         position: relative;
         margin-bottom: 0px;
-        left: 286px;
+        left: 263px;
     }
 
     #row_1 {
@@ -1512,6 +1521,11 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         height: 350px;
     }
 
+    .line-cloud_1_3 {
+        top: 2000px;
+        height: 569px;
+    }
+
     @keyframes cloud-move {
         0% {
             transform: translate(1250px, 0);
@@ -1546,6 +1560,10 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
 
 /* responsive ecran 425pxpx */
 @media screen and (max-width: 425px) {
+
+    #lm {
+        word-spacing: -68px;
+    }
 
     .coordonnees>a {
         visibility: hidden;
@@ -1721,8 +1739,9 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .coordonnees {
         padding-top: 20px;
         font-size: 18px;
-        margin-left: 73px;
-        word-spacing: -73px;
+        margin-left: 53px;
+        width: 350px;
+        word-spacing: -159px;
     }
 
     #cloud_1 {
@@ -2078,6 +2097,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         padding-top: 16px;
         font-size: 17px;
         margin-left: 60px;
+        width: 300px;
         word-spacing: -73px;
     }
     #cloud_5 {
@@ -2215,6 +2235,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         padding-top: 16px;
         font-size: 17px;
         margin-left: 41px;
+        width: 250px;
         word-spacing: -73px;
     }
     #competences {

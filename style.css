@@ -982,7 +982,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .navigation {
         z-index: 1;
         position: fixed;
-        left: 2110px;
+        left: 1175px;
         font-size: 17px;
         top: 20px;
         word-spacing: 30px;
@@ -992,7 +992,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         position: absolute;
         top: 230px;
         left: 1080px;
-        margin-left: -25px;
+        margin-left: -590px;
         margin-top: -25px;
         z-index: 1;
     }
@@ -1001,7 +1001,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         position: absolute;
         top: 230px;
         left: 1500px;
-        margin-left: -25px;
+        margin-left: -450px;
         margin-top: -25px;
         z-index: 1;
     }
@@ -1061,7 +1061,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     }
     .line-cloud_1_3 {
         top: 2000px;
-        height: 785px;
+        height: 609px;
     }
     #cloud_6 {
         position: absolute;
@@ -1074,7 +1074,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         width: 115px;
         height: 53px;
         margin-top: -30px;
-        margin-left: 42%;
+        margin-left: 43%;
     }
     .scroll_1 {
         position: absolute;

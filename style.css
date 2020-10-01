@@ -1085,6 +1085,116 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         transform: rotate(180deg);
     }
 }
+
+/*responsive ecran 1920px */
+@media screen and (max-width: 1920px) {
+    .navigation {
+        z-index: 1;
+        position: fixed;
+        left: 1541px;
+        font-size: 17px;
+        top: 20px;
+        word-spacing: 30px;
+    }
+    .menu {
+        margin: 0 auto;
+        position: absolute;
+        top: 230px;
+        left: 1080px;
+        margin-left: -590px;
+        margin-top: -25px;
+        z-index: 1;
+    }
+    .menu_1_2 {
+        margin: 0 auto;
+        position: absolute;
+        top: 230px;
+        left: 1500px;
+        margin-left: -450px;
+        margin-top: -25px;
+        z-index: 1;
+    }
+    .info_5 {
+        display: flex;
+        padding: 10px;
+        text-align: right;
+        position: relative;
+        margin-bottom: 210px;
+        margin-left: 798px;
+    }
+    #experience_1 {
+        visibility: hidden;
+        width: 300px;
+        height: 158px;
+        text-align: center;
+        background-color: #ffffff2e;
+        position: relative;
+        left: 610px;
+        bottom: 10px;
+        z-index: 1;
+    }
+    .text_1_1 {
+        margin-bottom: 23px;
+        margin-left: 751px;
+    }
+    #cloud_1 {
+        position: absolute;
+        width: 1100px;
+        left: 1500px;
+    }
+    .line-cloud_1 {
+        top: 1240px;
+        height: 566px;
+    }
+    @keyframes cloud-move_2 {
+        0% {
+            transform: translate(2600px, 0);
+        }
+    
+        100% {
+            transform: translate(-1430px, 0);
+        }
+    }
+    @keyframes cloud-move_3 {
+        0% {
+            transform: translate(-80vw, 0);
+        }
+    
+        100% {
+            transform: translate(2600px, 0);
+        }
+    }
+    .line-cloud_1_2 {
+        top: 1600px;
+        height: 370px;
+    }
+    .line-cloud_1_3 {
+        top: 2000px;
+        height: 609px;
+    }
+    #cloud_6 {
+        position: absolute;
+        width: 900px;
+        height: 600px;
+        right: 1000px;
+    }
+    .txt_scroll_1 {
+        position: absolute;
+        width: 115px;
+        height: 53px;
+        margin-top: -30px;
+        margin-left: 43%;
+    }
+    .scroll_1 {
+        position: absolute;
+        width: 53px;
+        height: 53px;
+        margin-left: 40%;
+        margin-top: -20px;
+        transform: rotate(180deg);
+    }
+}
+
 /*responsive ecran 1440px */
 @media screen and (max-width: 1440px) {
     body {

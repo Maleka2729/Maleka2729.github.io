@@ -982,7 +982,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
     .navigation {
         z-index: 1;
         position: fixed;
-        left: 1175px;
+        left: 2175px;
         font-size: 17px;
         top: 20px;
         word-spacing: 30px;

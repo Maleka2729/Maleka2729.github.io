@@ -1,5 +1,5 @@
 body {
-    background-image: url(image/mat-reding-zxHJq8hv-uo-unsplash.jpg);
+    background-image: url(image/mat-reding-zxHJq8hv-uo-unsplash.webp);
     background-size: 1440px cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1011,7 +1011,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         text-align: right;
         position: relative;
         margin-bottom: 210px;
-        margin-left: 798px;
+        left: 798px;
     }
     #experience_1 {
         visibility: hidden;
@@ -1120,7 +1120,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         text-align: right;
         position: relative;
         margin-bottom: 210px;
-        margin-left: 798px;
+        left: 798px;
     }
     #experience_1 {
         visibility: hidden;
@@ -1278,7 +1278,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         padding: 10px;
         text-align: right;
         position: relative;
-        left: 120px;
+        left: 655px;
         margin-bottom: 210px;
     }
 
@@ -1360,7 +1360,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         padding: 10px;
         text-align: right;
         position: relative;
-        left: -214px;
+        left: 370px;
         margin-bottom: 210px;
     }
 
@@ -1797,7 +1797,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         text-align: right;
         position: relative;
         margin-bottom: 0px;
-        left: -445px;
+        left: 130px;
     }
 
     #row_1 {
@@ -2145,7 +2145,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         text-align: right;
         position: relative;
         margin-bottom: 0px;
-        margin-left: -150px;
+        left: -168px;
     }
 
     #formation_4 {
@@ -2480,7 +2480,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
         text-align: right;
         position: relative;
         margin-bottom: 0px;
-        margin-left: -165px;
+        left: -165px;
     }
     .coordonnees {
         padding-top: 16px;

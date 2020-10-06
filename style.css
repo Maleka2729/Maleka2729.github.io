@@ -530,7 +530,6 @@ nav>#git {
     height: 550px;
 }
 
-
 .line-cloud_7 {
     top: 514px;
     height: 550px;
@@ -548,12 +547,12 @@ nav>#git {
 
 .line-cloud_1_3 {
     top: 1900px;
-    height: 759px;
+    height: 785px;
 }
 
 .line-cloud_1_4 {
     top: 100px;
-    height: 785px;
+    height: 759px;
 }
 
 #presentation {
@@ -1219,7 +1218,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
 
     .line-cloud_1_3 {
         top: 1880px;
-        height: 758px;
+        height: 759px;
     }
 
     .navigation {

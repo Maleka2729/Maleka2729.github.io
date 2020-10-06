@@ -1,6 +1,6 @@
 body {
-    background-image: url(image/mat-reding-zxHJq8hv-uo-unsplash.webp);
-    background-size: 1440px cover;
+    background-image: url(image/fond.webp);
+    background-size:  cover;
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0;
@@ -530,15 +530,6 @@ nav>#git {
     height: 550px;
 }
 
-.line-cloud_1_3 {
-    top: 1900px;
-    height: 785px;
-}
-
-.line-cloud_1_4 {
-    top: 100px;
-    height: 785px;
-}
 
 .line-cloud_7 {
     top: 514px;
@@ -556,7 +547,12 @@ nav>#git {
 }
 
 .line-cloud_1_3 {
-    top: 1600px;
+    top: 1900px;
+    height: 759px;
+}
+
+.line-cloud_1_4 {
+    top: 100px;
     height: 785px;
 }
 
@@ -1223,7 +1219,7 @@ input#toggle_2:checked~#show-menu_2 .btn_2 .closeBtn_2 {
 
     .line-cloud_1_3 {
         top: 1880px;
-        height: 785px;
+        height: 758px;
     }
 
     .navigation {
